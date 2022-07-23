@@ -125,7 +125,8 @@ const deals = [
 */
 
 //CODE HERE
-
+deals[0] = {title: '10% Off!', desc: 'Applied to your entire order when you spend $30 or more'}
+console.log(deals);
 
 
 /*
@@ -142,3 +143,6 @@ const deals = [
 */
 
 //CODE HERE
+
+deals[1] = {desc: 'This deal lasts until the end of April! ' }
+console.log(deals);
