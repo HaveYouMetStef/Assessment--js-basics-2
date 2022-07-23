@@ -96,7 +96,42 @@ console.log(pizza.category);
 */
 
 //CODE HERE
-
+const foodArr = [{
+    name: 'The Good Good',
+    price: 20,
+    category: 'Entree',
+    popularity: 95,
+    rating: 10,
+    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
+    ,
+    name: 'Triple Cheese',
+    price: 25,
+    category: 'Entree',
+    popularity: 70,
+    rating: 7,
+    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
+    ,
+    name: 'Italian Cheese Bread',
+    price: 10,
+    category: 'appetizer',
+    popularity: 90,
+    rating: 9,
+    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
+    ,
+    name: 'Meatlovers',
+    price: 25,
+    category: 'Entree',
+    popularity: 95,
+    rating: 9,
+    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
+    ,
+    name: 'Veggie Pizza',
+    price: 10,
+    category: 'Entree',
+    popularity: 60,
+    rating: 8,
+    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
+}]
 
 
 //////////////////PROBLEM 4////////////////////
