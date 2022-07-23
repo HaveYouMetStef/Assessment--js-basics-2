@@ -142,7 +142,7 @@ console.log(deals);
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+//CODE HERE **Ask Nitin and Norman about this
 
 deals[1] = {desc: 'This deal lasts until the end of April! ' }
 console.log(deals);

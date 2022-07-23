@@ -31,7 +31,14 @@
 */
 
 //CODE HERE
-
+const pizza = {
+    name: 'The Good Good',
+    price: 20,
+    category: 'Entree',
+    popularity: 95,
+    rating: 10,
+    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
+}
 
 
 //////////////////PROBLEM 2////////////////////
