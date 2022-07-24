@@ -81,7 +81,7 @@ pizza.price = 15;
 */
 
 //CODE HERE
-console.log(pizza.category);
+// console.log(pizza.category);
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -102,36 +102,41 @@ const foodArr = [{
     category: 'Entree',
     popularity: 95,
     rating: 10,
-    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
-    ,
+    tags: ['Large', "Small", "something1"]
+},
+{
     name: 'Triple Cheese',
     price: 25,
     category: 'Entree',
     popularity: 70,
     rating: 7,
-    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
-    ,
+    tags: [ 'Small', "Group", "Large"]
+},
+{
     name: 'Italian Cheese Bread',
     price: 10,
     category: 'appetizer',
     popularity: 90,
     rating: 9,
-    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
-    ,
+    tags: ['For kids', 'Shareable']
+   },
+   {
     name: 'Meatlovers',
     price: 25,
     category: 'Entree',
     popularity: 95,
     rating: 9,
-    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
-    ,
+    tags: ['Large']
+   },
+{
     name: 'Veggie Pizza',
     price: 10,
     category: 'Entree',
     popularity: 60,
     rating: 8,
-    tags: ['Gluten-free', 'For kids', 'Large', 'Small', 'Personal']
-}]
+    tags: ['Gluten-free', 'Personal']
+}
+]
 
 
 //////////////////PROBLEM 4////////////////////
@@ -146,9 +151,42 @@ const foodArr = [{
     your food objects has.
 */
 
-//CODE HERE
+//CODE HERE COME BACK
+// console.log(foodArr);
+// const filterFood = tags => {
+//     for (let i = 0; i < foodArr.tags.length; i++){
+//     if (foodArr.includes('Large')) {
+//         console.log(foodArr);
+//     }
+//     // console.log(foodArr);
+// }
+const filterFood = () => {
+    
+    const arr = foodArr.filter(element => element.tags.includes("Large"))
+    return arr
+    
+}
+    // let filteredFood = foodArr.filter(element => element.tags === 'Large')
+    const foodSize = filterFood(foodArr)
+    console.log(foodSize)
+    // return filteredFood[0]
+// }
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+// const filterFood = [];
+// for (let i = 0; i <foodArr.length; i++) {
+//     const item = foodArr[i];
+//     if (foodArr.tag === 'Large') {
+//         filterFood.push(item)
+//     }
+// }
+
+// console.log(filteredFood);
+
+// const filteredFood = foodArr.filter(tags => tags === 'Large')
+
+// console.log(filterFood(tags));
+
+// console.log(filterFood(tags));
 
 
 
@@ -192,7 +230,9 @@ const foodArr = [{
 */
 
 //CODE HERE
+const filterByProperty = (property, number, type) => {
 
+}
 
 /*
     Invoke the `filterByProperty` function passing
