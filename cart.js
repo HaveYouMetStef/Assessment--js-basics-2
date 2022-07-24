@@ -47,7 +47,7 @@ const cartPrices = priceOfFood.map(element =>{
 
 const sumOfFood = cartPrices.reduce((acc, curr) => acc + curr)
 
-console.log(sumOfFood);
+// console.log(sumOfFood);
 
 
 
@@ -67,8 +67,11 @@ console.log(sumOfFood);
 */
 
 //CODE HERE
-
-
+const calcFinalPrice = (cartTotal, tax, couponValue) => {
+    let totalPrice = (cartTotal * tax - couponValue);
+    return totalPrice
+}
+console.log(calcFinalPrice(26, 1.06, 6));
 
 //////////////////PROBLEM 3////////////////////
 /*  
