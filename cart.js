@@ -95,6 +95,11 @@ console.log(calcFinalPrice(26, 1.06, 6));
 
 /*
     TEXT ANSWER HERE
+    The properties I thought would be necessary for this example is as follows:
+    -name: string (Tells us who our customer is)
+    -email: string (A way to communicate with the customer for a reward system with our company)
+    -phone number: number (An easy way to get in contact with the customer)
+    -debit card number: number (Tells us if they paid via credit card or cash)
 
 */
 
@@ -104,3 +109,9 @@ console.log(calcFinalPrice(26, 1.06, 6));
 */
 
 //CODE HERE
+const customerInfo = {
+    name: '',
+    email: '',
+    phone: number,
+    debitcard: number,
+}
