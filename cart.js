@@ -18,8 +18,7 @@
     the food. 
 */
 
-const cart = [
-    {
+const cart = [{
         name: 'pizza', 
         price: 9.99
     }, 
@@ -33,9 +32,23 @@ const cart = [
     }
 ]
 
-//CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+//CODE HERE
+const priceOfFood = cart.filter(cart => {
+    let prices = cart.price
+    // console.log(prices);
+    return prices
+})
+const cartPrices = priceOfFood.map(element =>{
+    let totalPrices = element.price
+    return totalPrices
+})
+// console.log(cartPrices);
+
+const sumOfFood = cartPrices.reduce((acc, curr) => acc + curr)
+
+console.log(sumOfFood);
+
 
 
 //////////////////PROBLEM 2////////////////////

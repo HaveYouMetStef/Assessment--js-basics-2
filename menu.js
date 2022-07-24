@@ -165,28 +165,9 @@ const filterFood = () => {
     const arr = foodArr.filter(element => element.tags.includes("Large"))
     return arr
     
-}
-    // let filteredFood = foodArr.filter(element => element.tags === 'Large')
-    const foodSize = filterFood(foodArr)
+}    
+const foodSize = filterFood(foodArr)
     console.log(foodSize)
-    // return filteredFood[0]
-// }
-
-// const filterFood = [];
-// for (let i = 0; i <foodArr.length; i++) {
-//     const item = foodArr[i];
-//     if (foodArr.tag === 'Large') {
-//         filterFood.push(item)
-//     }
-// }
-
-// console.log(filteredFood);
-
-// const filteredFood = foodArr.filter(tags => tags === 'Large')
-
-// console.log(filterFood(tags));
-
-// console.log(filterFood(tags));
 
 
 
@@ -230,8 +211,12 @@ const filterFood = () => {
 */
 
 //CODE HERE
+let property = String
+let number = Number
+let type = String
 const filterByProperty = (property, number, type) => {
-
+    let highQuality = [];
+    const filteredProperty = foodArr.filter(element)
 }
 
 /*
